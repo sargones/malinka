@@ -1,0 +1,17 @@
+Let's try to play with thislet us see if the with statement is working
+ do we have now new line creating?
+ last line before closing the file
+and let me wish you a nice week
+
+
+-----
+code use for appending and closing file:
+with open('/home/pi/Python/testfile.txt', mode = 'at', encoding = 'utf-8') as f:
+	f.write('\nand let me wish you a nice week')
+
+def writeMyFile(add_to_file):
+	with open('/home/pi/Python/testfile.txt', mode = 'at', encoding = 'utf-8') as f:
+	    f.write('\n')
+	    f.write(add_to_file)
+beibeiiiiii
+Az dnes si vzeh bilet za Sofia
